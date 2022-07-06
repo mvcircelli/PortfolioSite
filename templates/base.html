@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Based on DopeTrope by HTML5up and @ajlkn
+Modified for Python Flask and made Dynamic by Matthew Circelli
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<head>
+        <title>Matthew Circelli</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+</head>
+<body>
+<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="/">Matthew Circelli</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="/">Home</a></li>
+								<li>
+									<a href="#">Achievements</a>
+									<ul>
+										<li><a href="#">ESSENCE Satellite Mission</a></li>
+										<li><a href="#">SINCSat Internet Service</a></li>
+										<li><a href="#">LabVIEW Satellite Tracker</a></li>
+										<li><a href="#">NX Simulations</a></li>
+                                        <li><a href="#">Portable Wind Generator</a></li>
+
+										<li>
+											<a href="#">Software Projects</a>
+											<ul>
+												<li><a href="#">MATLAB</a></li>
+												<li><a href="#">Python</a></li>
+												<li><a href="#">C++</a></li>
+												<li><a href="#">FORTRAN</a></li>
+												<li><a href="#">R</a></li>
+											</ul>
+										</li>
+
+									</ul>
+								</li>
+								<li><a href="/hardware">Hardware</a></li>
+								<li><a href="/software">Software</a></li>
+								<li><a href="/contactme">Contact Me</a></li>
+							</ul>
+						</nav>
+                    {% block header %}
+                    {% endblock %}
+                </section>
+            {% block content %}
+            {% endblock %}
+            <!-- Footer -->
+            <section id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 col-12-medium">
+                            <section>
+                                <header>
+                                    <h2>Blandit nisl adipiscing</h2>
+                                </header>
+                                <ul class="dates">
+                                    <li>
+                                        <span class="date">Jan <strong>27</strong></span>
+                                        <h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
+                                        <p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
+                                    </li>
+                                    <li>
+                                        <span class="date">Jan <strong>23</strong></span>
+                                        <h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
+                                        <p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
+                                    </li>
+                                    <li>
+                                        <span class="date">Jan <strong>15</strong></span>
+                                        <h3><a href="#">Magna tempus lorem feugiat</a></h3>
+                                        <p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
+                                    </li>
+                                    <li>
+                                        <span class="date">Jan <strong>12</strong></span>
+                                        <h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
+                                        <p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
+                                    </li>
+                                    <li>
+                                        <span class="date">Jan <strong>10</strong></span>
+                                        <h3><a href="#">Blandit tempus aliquam?</a></h3>
+                                        <p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section>
+                                <header>
+                                    <h2>Thanks for visiting!</h2>
+                                </header>
+                                <a href="#" class="image featured"><img src="static/images/pic10.jpg" alt="" /></a>
+                                <p>
+                                    I hope you've learned lots of interesting things about me, and hope to hear from you soon!
+                                    This website is based on the <strong>Dopetrope</strong> template by
+                                    <a href="http://twitter.com/ajlkn">AJ</a> from <a href="http://html5up.net/">HTML5UP</a>,
+                                    though it has been heavily modified to be able to run on my Python Flask webserver code, and hosted
+                                    from the Raspberry Pi in my home!
+                                </p>
+                                <footer>
+                                    <ul class="actions">
+                                        <li><a href="#" class="button">Find out more</a></li>
+                                    </ul>
+                                </footer>
+                            </section>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <section>
+                                <header>
+                                    <h2>Tempus consequat</h2>
+                                </header>
+                                <ul class="divided">
+                                    <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+                                    <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+                                    <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+                                    <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+                                    <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+                                    <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <section>
+                                <header>
+                                    <h2>Ipsum et phasellus</h2>
+                                </header>
+                                <ul class="divided">
+                                    <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+                                    <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+                                    <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+                                    <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+                                    <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+                                    <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section>
+                                <header>
+                                    <h2>Contact info and social media</h2>
+                                </header>
+                                <ul class="social">
+                                    <li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
+                                    <li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+                                    <li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+                                    <li><a class="icon brands fa-tumblr" href="#"><span class="label">Tumblr</span></a></li>
+                                    <li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
+                                </ul>
+                                <ul class="contact">
+                                    <li>
+                                        <h3>Address</h3>
+                                        <p>
+                                            1969 Mulberry Crescent<br />
+                                            Ottawa, ON
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h3>Mail</h3>
+                                        <p><a href="#">htcmatthewcircelli@gmail.com</a></p>
+                                    </li>
+                                    <li>
+                                        <h3>Phone</h3>
+                                        <p>(613) 618-8712</p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-12">
+
+                            <!-- Copyright -->
+                            <div id="copyright">
+                                <ul class="links">
+                                    <li>&copy; Matthew Circelli. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.dropotron.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+</body>
+</html>
